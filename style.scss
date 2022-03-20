@@ -1,0 +1,21 @@
+body {
+  overflow-y: scroll;
+}
+
+.lyrics-box {
+  border: 1px solid #dadada;
+}
+
+.col-4 {
+  width: 30rem;
+  ul {
+    font-size: 1.25rem;
+    color: rgb(66, 72, 167);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    li {
+      padding: 0.25rem;
+    }
+  }
+}
